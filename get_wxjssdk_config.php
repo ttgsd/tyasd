@@ -1,7 +1,11 @@
 <?php
 
-
 include_once 'api_ticket_util.php';
+
+//页面调用方法
+//var url = encodeURIComponent(window.location.href.split('#')[0]);
+// 'http://xxx.com/get_wxjssdk_config.php?url='+url
+
 
 $url =  ApiTicketUtil::filter($_GET['url']);
 
