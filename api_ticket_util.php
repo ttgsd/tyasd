@@ -9,7 +9,8 @@ class ApiTicketUtil {
     const SANGRIA_SECRT = '';
     const SANGRIA_GZID = '';
     
-    const FILE_PATH = 'api_ticket.dat';
+    //参数值，时间戳
+    const FILE_PATH = 'api_ticket.dat';//缓存文件["xxxxx",3123123]
     
     const PROJECT_ID = '';
     
